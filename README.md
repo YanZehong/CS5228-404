@@ -1,4 +1,5 @@
 # CS5228-404
+In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
 
 ## Project Set Up
 This is a list of all requirements used in this project.
@@ -34,9 +35,10 @@ pip3 install torch==1.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_sta
 pip3 install --pre autogluon
 ```
 
-For Mac user, if you don’t have them, please first install: XCode, Homebrew, LibOMP. Once you have Homebrew, LibOMP can be installed via:
+For Mac users, if you don’t have them, please first install: XCode, Homebrew, LibOMP.
 
 ```
+# Once you have Homebrew, LibOMP can be installed via:
 brew install wget
 wget https://raw.githubusercontent.com/Homebrew/homebrew-core/fb8323f2b170bd4ae97e1bac9bf3e2983af3fdb0/Formula/libomp.rb
 # Uninstall libomp if it was previous installed
@@ -44,6 +46,9 @@ wget https://raw.githubusercontent.com/Homebrew/homebrew-core/fb8323f2b170bd4ae9
 brew install libomp.rb
 rm libomp.rb
 
+conda create -n ag python=3.9 -y
+source deactivate
+conda activate ag
 pip3 install -U pip
 pip3 install -U setuptools wheel
 # CPU version of pytorch has smaller footprint - see installation instructions in
