@@ -2,25 +2,25 @@
 
 ## Project Set Up
 This is a list of all requirements used in this project.
-### Requirement
+### Requirements for baselines
 
 ```
 conda create -n cs5228-404 -y python=3.8 pip
 conda activate cs5228-404
 pip install jupyter d2l torch torchvision
 jupyter notebook
-
 ```
 
-### EDA image plot 
+### Requirements for EDA images plot 
 
 ```
 pip install numpy pandas seaborn scipy plotly
 pip install -U matplotlib
 pip install -U kaleido
+python eda_plot.py
 ```
 
-### AutoGluon
+### Requirements for AutoGluon
 To install AutoGluon on Windows, it is recommended to use Anaconda:
 ```
 conda create -n ag python=3.9 -y
