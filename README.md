@@ -3,10 +3,6 @@
 
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
 
-## Frameworks
-![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
-![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
-
 
 ## Project Set Up
 This is a list of all requirements used in this project.
@@ -66,4 +62,9 @@ pip3 install torch==1.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_sta
 pip3 install --pre autogluon
 ```
 
+## Framework Overview
+![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
+![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
+
 ## Acknowledgement
+We would like to thank Chris for helpful comments and feedback on earlier versions of this work. We are grateful to CS5228 for giving us such a valuable data mining experience. Teammates: Yan Zehong, Jiang Chuanqi, Li Xuanman, Gu Ruijia.
