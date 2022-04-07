@@ -74,4 +74,4 @@ jupyter notebook
 ## Acknowledgement
 We would like to thank Chris for helpful comments and feedback on earlier versions of this work. We are grateful to CS5228 for giving us such a valuable data mining experience.  
 Team 404: Yan Zehong, Jiang Chuanqi, Li Xuanman, Gu Ruijia.  
-[Competition Link](https://www.kaggle.com/competitions/cs5228-2021-semester-2-final-project)  
+[Kaggle Competition Link-CS5228-2021 (Semester 2) Final Project](https://www.kaggle.com/competitions/cs5228-2021-semester-2-final-project)  
