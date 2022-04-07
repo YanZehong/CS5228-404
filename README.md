@@ -1,10 +1,12 @@
 # CS5228-404
-[![Python Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
+[![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
+
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
 
 ## Frameworks
-![preprocess]({{ site.baseurl }}/images/flowchart.png "Preprocessing flowchart")
-![model-framework]({{ site.baseurl }}/images/model_framework.png "Architecture of our model")
+![preprocess](https://https://github.com/YanZehong/CS5228-404/tree/main/images/flowchart.png?raw=true)
+![model-framework](https://https://github.com/YanZehong/CS5228-404/tree/main/images/model_framework.png.png?raw=true)
+
 
 ## Project Set Up
 This is a list of all requirements used in this project.
