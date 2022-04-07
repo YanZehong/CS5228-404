@@ -67,4 +67,6 @@ pip3 install --pre autogluon
 ![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
 
 ## Acknowledgement
-We would like to thank Chris for helpful comments and feedback on earlier versions of this work. We are grateful to CS5228 for giving us such a valuable data mining experience. Teammates: Yan Zehong, Jiang Chuanqi, Li Xuanman, Gu Ruijia.
+We would like to thank Chris for helpful comments and feedback on earlier versions of this work. We are grateful to CS5228 for giving us such a valuable data mining experience.  
+Team 404: Yan Zehong, Jiang Chuanqi, Li Xuanman, Gu Ruijia.  
+[Competition Link](https://www.kaggle.com/competitions/cs5228-2021-semester-2-final-project)  
