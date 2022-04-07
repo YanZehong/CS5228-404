@@ -62,6 +62,11 @@ pip3 install torch==1.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_sta
 pip3 install --pre autogluon
 ```
 
+Then, run the notebook scripts (run_autogluon.ipynb):
+```
+jupyter notebook
+```
+
 ## Framework Overview
 ![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
 ![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
