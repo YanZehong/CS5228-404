@@ -5,7 +5,7 @@ In this project, we look into the market for condominiums in Singapore. We aim t
 
 ## Frameworks
 ![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
-![model-framework](https://https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png.png?raw=true)
+![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
 
 
 ## Project Set Up
