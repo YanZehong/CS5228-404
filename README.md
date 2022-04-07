@@ -4,8 +4,8 @@
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
 
 ## Frameworks
-![preprocess](https://https://github.com/YanZehong/CS5228-404/tree/main/images/flowchart.png?raw=true)
-![model-framework](https://https://github.com/YanZehong/CS5228-404/tree/main/images/model_framework.png.png?raw=true)
+![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
+![model-framework](https://https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png.png?raw=true)
 
 
 ## Project Set Up
