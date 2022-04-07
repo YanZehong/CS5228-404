@@ -1,5 +1,10 @@
 # CS5228-404
+[![Python Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
+
+## Frameworks
+![preprocess]({{ site.baseurl }}/images/flowchart.png "Preprocessing flowchart")
+![model-framework]({{ site.baseurl }}/images/model_framework.png "Architecture of our model")
 
 ## Project Set Up
 This is a list of all requirements used in this project.
@@ -22,6 +27,8 @@ python eda_plot.py
 ```
 
 ### Requirements for AutoGluon
+Refer to [Install Instructions](https://auto.gluon.ai/stable/install.html) | Documentation ([Stable](https://auto.gluon.ai/stable/index.html) | [Latest](https://auto.gluon.ai/dev/index.html)) for details.
+
 To install AutoGluon on Windows, it is recommended to use Anaconda:
 ```
 conda create -n ag python=3.9 -y
