@@ -28,7 +28,7 @@ fig.update_layout(
     font=dict(
         size=14
     )
-)                         
+)
 fig.write_image('images/areasize-price.png')
 # fig.show()
 
@@ -44,7 +44,7 @@ fig.update_layout(
     font=dict(
         size=14
     )
-)                         
+)
 fig.write_image('images/noofunits-price.png')
 # fig.show()
 
@@ -61,7 +61,7 @@ fig.update_layout(
     font=dict(
         size=14
     )
-)                         
+)
 fig.write_image('images/builtyear-price.png')
 # fig.show()
 
@@ -77,7 +77,7 @@ fig.update_layout(
     font=dict(
         size=14
     )
-)                         
+)
 fig.write_image('images/district-price.png')
 # fig.show()
 # df_train[(df_train['district']==4) & (df_train['price']==74800000)] # 2168,16294,19026
@@ -116,7 +116,7 @@ sns.despine(trim=True, left=True)
 plt.savefig('images/Missing.png', dpi=600, bbox_inches='tight')
 # plt.show()
 
-# bar/box plot 
+# bar/box plot
 indices = df_train['bedrooms'].str.contains('\+', na=False)
 rooms = df_train.bedrooms[indices].to_numpy()
 f = lambda x: int(x[0]) + int(x[2])
@@ -183,7 +183,7 @@ f = plt.figure(figsize=(12,10))
 sns.set_style("white")
 sns.set_color_codes(palette='deep')
 ax1 = plt.subplot(2, 2, 1)
-#Check the new distribution 
+#Check the new distribution
 sns.distplot(df_train['price'], color="b");
 ax1.set(ylabel="Frequency")
 ax1.set(xlabel="Price")
@@ -214,7 +214,7 @@ plt.savefig('images/price-dist.png', dpi=600, bbox_inches='tight')
 # plt.show()
 
 # correlation plot
-df_train = pd.read_csv('train_concat_0326.csv', sep=',')
+df_train = pd.read_csv('data/train_concat_0326.csv', sep=',')
 style.use('ggplot')
 sns.set_style('whitegrid')
 plt.subplots(figsize = (30,20))
