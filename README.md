@@ -1,4 +1,4 @@
-# CS5228-404
+# CS5228-Team 404
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
 
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
@@ -11,17 +11,20 @@ This is a list of all requirements used in this project.
 ```
 conda create -n cs5228-404 -y python=3.8 pip
 conda activate cs5228-404
-pip install jupyter d2l torch torchvision
-jupyter notebook
+pip install jupyter d2l torch torchvision # basic setup
+jupyter notebook # run_baselines.ipynb
 ```
 
-### Requirements for EDA images plot 
+To install requirements, run `pip install -r requirements.txt`.
+
+### Requirements for EDA images plot
 
 ```
 pip install numpy pandas seaborn scipy plotly
 pip install -U matplotlib
 pip install -U kaleido
 python eda_plot.py
+jupyter notebook # aspects_fi.ipynb for feature importance analysis
 ```
 
 ### Requirements for AutoGluon
