@@ -12,7 +12,7 @@ This is a list of all requirements used in this project.
 conda create -n cs5228-404 -y python=3.8 pip
 conda activate cs5228-404
 pip install jupyter d2l torch torchvision # basic setup
-jupyter notebook # run_baselines.ipynb
+jupyter notebook # run_preprocess.ipynb, run_baselines.ipynb
 ```
 
 To install requirements, run `pip install -r requirements.txt`.
