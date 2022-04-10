@@ -1,9 +1,7 @@
 # CS5228-Team 404
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
 
-[Github Link: https://github.com/YanZehong/CS5228-404](https://github.com/YanZehong/CS5228-404)
-
-In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
+In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks. [Github Link](https://github.com/YanZehong/CS5228-404)
 
 ## Table of Codes
 - EDA:  
@@ -12,11 +10,11 @@ In this project, we look into the market for condominiums in Singapore. We aim t
     * `run_preprocess.ipynb`  
 - Feature Importance Analysis:  
     * `aspects_fi.ipynb`  
-- Baselines: includes LinearNN, Lasso, ENet, Ridge, SVM, RF, GBoost, XGB, LightGBM, Stacked  
+- Baselines: LinearNN, Lasso, ElasticNet, Ridge, SVM, RF, GBoost, XGB, LightGBM, Stacked  
     * `run_baselines.ipynb`  
 - Autogluon-Tabular:  
     * `run_autogluon.ipynb`  
-    
+
 ## Project Set Up
 
 This is a list of all requirements used in this project.
