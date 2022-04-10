@@ -4,16 +4,19 @@
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks. [Github Link](https://github.com/YanZehong/CS5228-404)
 
 ## Table of Codes
-- EDA:  
-    * `eda_plot.py`  
-- Preprocess:  
-    * `run_preprocess.ipynb`  
-- Feature Importance Analysis:  
-    * `aspects_fi.ipynb`  
-- Baselines: LinearNN, Lasso, ElasticNet, Ridge, SVM, RF, GBoost, XGB, LightGBM, Stacked  
-    * `run_baselines.ipynb`  
-- Autogluon-Tabular:  
-    * `run_autogluon.ipynb`  
+- EDA: `eda_plot.py`  
+- Preprocess: `run_preprocess.ipynb`  
+- Feature Importance Analysis: `aspects_fi.ipynb`  
+- Baselines: `run_baselines.ipynb`  
+    * LinearNN  
+    * Lasso, ElasticNet, Ridge  
+    * SVM  
+    * Random Forest
+    * GradientBoost
+    * XGB  
+    * LightGBM  
+    * Stacked  
+- Autogluon-Tabular: `run_autogluon.ipynb`  
 
 ## Project Set Up
 
