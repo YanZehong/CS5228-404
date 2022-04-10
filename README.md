@@ -8,14 +8,9 @@ In this project, we look into the market for condominiums in Singapore. We aim t
 - Preprocess: `run_preprocess.ipynb`  
 - Feature Importance Analysis: `aspects_fi.ipynb`  
 - Baselines: `run_baselines.ipynb`  
-    * LinearNN  
-    * Lasso, ElasticNet, Ridge  
-    * SVM  
-    * Random Forest
-    * GradientBoost
-    * XGB  
-    * LightGBM  
-    * Stacked  
+    * Linear Regression, Lasso, ElasticNet, Ridge, SVM  
+    * Random Forest, GradientBoost, XGB, LightGBM  
+    * Stacked Model  
 - Autogluon-Tabular: `run_autogluon.ipynb`  
 
 ## Project Set Up
