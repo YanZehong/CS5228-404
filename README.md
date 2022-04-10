@@ -1,11 +1,15 @@
 # CS5228-Team 404
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://pypi.org/project/autogluon/)
 
+[Github Link: https://github.com/YanZehong/CS5228-404](https://github.com/YanZehong/CS5228-404)
+
 In this project, we look into the market for condominiums in Singapore. We aim to predict the sale prices through data mining techniques, different machine learning models and AutoML frameworks.
 
 
 ## Project Set Up
+
 This is a list of all requirements used in this project.
+
 ### Requirements for baselines
 
 ```
@@ -65,10 +69,22 @@ pip3 install torch==1.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_sta
 pip3 install --pre autogluon
 ```
 
-Then, run the notebook scripts (run_autogluon.ipynb):
+Then, run the notebook scripts:
 ```
-jupyter notebook
+jupyter notebook # run_autogluon.ipynb
 ```
+
+## Table of Codes
+- EDA:  
+    * `eda_plot.py`  
+- Preprocess:  
+    * `run_preprocess.ipynb`  
+- Feature Importance Analysis:  
+    * `aspects_fi.ipynb`  
+- Baselines: includes Linear NN, Lasso, ElasticNet, Ridge, SVM, Random Forest, GBoost, XGB, LightGBM, Stacked  
+    * `run_baselines.ipynb`  
+- Autogluon-Tabular:  
+    * `run_autogluon.ipynb`  
 
 ## Framework Overview
 ![preprocess](https://github.com/YanZehong/CS5228-404/blob/main/images/flowchart.png?raw=true)
