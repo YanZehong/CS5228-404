@@ -86,7 +86,7 @@ jupyter notebook # run_autogluon.ipynb
 ![model-framework](https://github.com/YanZehong/CS5228-404/blob/main/images/model_framework.png?raw=true)
 
 ## Note
-** Please don't train too hard, utilize log/box-cox transformation and follow RMSLE to make your models robust to such big prices/values. Otherwise, you will drop fast in the private board. **
+**Please don't train too hard, utilize log/box-cox transformation and follow RMSLE to make your models robust to such big prices/values. Otherwise, you will drop fast in the private board.**
 
 ## Acknowledgement
 We would like to thank Chris for helpful comments and feedback on earlier versions of this work. We are grateful to CS5228 for giving us such a valuable data mining experience.  
